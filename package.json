@@ -1,0 +1,15 @@
+{
+  "name": "@Vonage/twilio-vonage-bridge",
+  "private": false,
+  "description": "Library to help developers to transition from Twilio Video to Vonage Video",
+  "homepage": "https://developer.vonage.com",
+  "repository": "https://github.com/Vonage-Community/library-video-javascript-twilio-vonage-bridge",
+  "license": "MIT",
+  "author": "Dwane Hemmings",
+  "version": "1.0.0",
+  "main": "index.js",
+  "module": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

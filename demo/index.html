@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles.css" />
+    <title>Twilio Vonage Sample App</title>
+
+    <!-- UNCOMMENT TO USE TWILIO -->
+    <!-- <script src="https://sdk.twilio.com/js/video/releases/2.17.1/twilio-video.min.js"></script> -->
+
+    <!-- UNCOMMENT TO USE VONAGE -->
+    <!-- <script src="https://unpkg.com/@vonage/client-sdk-video@latest/dist/js/opentok.js"></script> -->
+
+    <script type="module" src="../index.js"></script>
+
+    <script type="module" src="./script.js"></script>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div id="select-devices">
+        <div>
+          <label for="audio-source-select">Audio Source:</label>
+          <select id="audio-source-select"></select
+          ><br />
+          <label for="video-source-select">Video Source:</label>
+          <select id="video-source-select"></select>
+        </div>
+      </div>
+      <br />
+
+      <div id="input-container">
+        <input id="room-name" placeholder="Enter Room Name" />
+        <input id="username" placeholder="Enter Username" />
+        <button id="connect">Connect</button>
+        <button id="leave">Leave</button>
+      </div>
+      <main>
+        <fieldset>
+          <legend>Publisher</legend>
+          <div id="local-media"></div>
+          <button id="mute-video">Mute Video</button>
+          <button id="unmute-video">Unmute Video</button>
+          <button id="mute-audio">Mute Audio</button>
+          <button id="unmute-audio">Unmute Audio</button>
+        </fieldset>
+        <fieldset>
+          <legend>Subscribers</legend>
+          <div id="remote-media-div"></div>
+        </fieldset>
+      </main>
+    </div>
+  </body>
+</html>
