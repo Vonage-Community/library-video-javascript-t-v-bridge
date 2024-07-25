@@ -1,5 +1,5 @@
 {
-  "name": "@Vonage/twilio-vonage-bridge",
+  "name": "@vonage/twilio-vonage-bridge",
   "private": false,
   "description": "Library to help developers to transition from Twilio Video to Vonage Video",
   "homepage": "https://developer.vonage.com",
