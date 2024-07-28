@@ -1,4 +1,4 @@
-# Twilio to Vonage Bridge
+# T to V Bridge
 
 Since Twilio announced sunsetting their [Programmable Video](https://www.twilio.com/en-us/changelog/programmable-video-eol-notice), I wanted to create something that would help the transition of developers moving over to Vonage Video easier.
 
@@ -16,7 +16,7 @@ It tries to cover the following functionalities:
 ## Installation
 
 ```bash
-npm i @Vonage/twilio-vonage-bridge
+npm i @Vonage/t-v-bridge
 ```
 
 ## Usage
@@ -25,14 +25,14 @@ npm i @Vonage/twilio-vonage-bridge
 
 ```html
 <script type="module">
-  import '@Vonage/twilio-vonage-bridge/index.js';
+  import '@Vonage/t-v-bridge/index.js';
 </script>
 ```
 
 ### OR using a CDN
 
 ```html
-<script type="module" src="https://unpkg.com/@Vonage/twilio-vonage-bridge@latest/index.js?module"></script>
+<script type="module" src="https://unpkg.com/@Vonage/t-v-bridge@latest/index.js?module"></script>
 
 ```
 
@@ -50,4 +50,4 @@ That's it!
 
 ## Sample Application
 
-I created a [sample application](https://github.com/Vonage-Community/library-video-javascript-twilio-vonage-bridge/blob/main/demo) that can be quickly deployed to StackBlitz to test out the bridge library.
+I created a [sample application](https://github.com/Vonage-Community/library-video-javascript-t-v-bridge/blob/main/demo) that can be quickly deployed to StackBlitz to test out the bridge library.
