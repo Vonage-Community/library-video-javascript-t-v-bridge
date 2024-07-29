@@ -6,7 +6,7 @@
   "repository": "https://github.com/Vonage-Community/library-video-javascript-t-v-bridge",
   "license": "MIT",
   "author": "Dwane Hemmings",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "main": "index.js",
   "module": "index.js",
   "scripts": {
