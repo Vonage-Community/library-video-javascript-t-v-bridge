@@ -16,7 +16,7 @@ It tries to cover the following functionalities:
 ## Installation
 
 ```bash
-npm i @Vonage/t-v-bridge
+npm i @vonage/t-v-bridge
 ```
 
 ## Usage
@@ -25,14 +25,14 @@ npm i @Vonage/t-v-bridge
 
 ```html
 <script type="module">
-  import '@Vonage/t-v-bridge/index.js';
+  import '@vonage/t-v-bridge/index.js';
 </script>
 ```
 
 ### OR using a CDN
 
 ```html
-<script type="module" src="https://unpkg.com/@Vonage/t-v-bridge@latest/index.js?module"></script>
+<script type="module" src="https://unpkg.com/@vonage/t-v-bridge@latest/index.js?module"></script>
 
 ```
 
