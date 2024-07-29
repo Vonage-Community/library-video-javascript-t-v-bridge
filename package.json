@@ -1,9 +1,9 @@
 {
-  "name": "@vonage/twilio-vonage-bridge",
+  "name": "@vonage/t-v-bridge",
   "private": false,
-  "description": "Library to help developers to transition from Twilio Video to Vonage Video",
+  "description": "Library to help developers transition from Twilio Video to Vonage Video",
   "homepage": "https://developer.vonage.com",
-  "repository": "https://github.com/Vonage-Community/library-video-javascript-twilio-vonage-bridge",
+  "repository": "https://github.com/Vonage-Community/library-video-javascript-t-v-bridge",
   "license": "MIT",
   "author": "Dwane Hemmings",
   "version": "1.0.0",
