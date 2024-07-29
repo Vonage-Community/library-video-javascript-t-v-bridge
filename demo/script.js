@@ -9,8 +9,8 @@ let createLocalTracks;
 
 // check to see if Vonage Video library is loaded
 if (window.OT) {
-  connect = TwilioVonageBridge.connect;
-  createLocalTracks = TwilioVonageBridge.createLocalTracks;
+  connect = TVBridge.connect;
+  createLocalTracks = TVBridge.createLocalTracks;
 } else {
   const Video = Twilio.Video;
   connect = Video.connect;
