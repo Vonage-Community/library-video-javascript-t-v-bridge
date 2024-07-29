@@ -550,4 +550,5 @@ async function createLocalTracks({ audio, video }) {
   });
   return new LocalTracks(stream);
 }
+window.TVBridge = { connect: initializeSession, createLocalTracks };
 export { initializeSession as connect, createLocalTracks };
